@@ -1,19 +1,18 @@
 import React from 'react';
-import Image from 'next/image';
-import myImage from '../../public/images/section.png';
+import myImage from '../../public/images/sectionm.jpeg';
+
 const Section = () => {
   return (
-    <section className='section'>
-         
-     <view>
-      <div>
-      <Image src={myImage} alt="Logo" width={100} height={50} />
-      </div>
-     <p className='parra1'>  EMPECEMOS A HACER LO SENCILLO</p>
-      <p>NOS EMOCIONA IMPULSAR TU TRANFORMACION DIGITAL</p>
-     </view>
-     
-    </section>
+    <div className='view'>
+        <div className='parra'>
+          <div className='box-title'>
+            <p>EMPECEMOS A HACERLO SENCILLO</p>
+          </div>
+            <div className='box-titleII'>
+              <p>Nos emociona impulsar tu tramformacion digital</p>
+            </div>
+        </div>
+    </div>
   );
 }
 
